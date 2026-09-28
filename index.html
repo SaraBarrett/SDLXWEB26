@@ -9,6 +9,10 @@
       href="images/icons8-internet-48.apng.png"
       type="image/png"
     />
+    <!-- CSS da minha app -->
+    <link rel="stylesheet" href="css/style.css">
+
+
   </head>
   <!-- Corpo da Página -->
   <body>
@@ -20,7 +24,6 @@
       <a href="pages/linksAndImages.html">Lobos</a>
     </nav>
 
-
     <!-- .Menu de Navegação -->
     <hr />
 
@@ -31,6 +34,70 @@
       width="250px"
       height="100px"
     />
+
+    <!-- Formulário -->
+    <section>
+      <h4>Formulário de Inscrição para SD</h4>
+      <form action="pages/utils/success.html">
+        <label for="user-name">Nome Completo</label>
+        <input id="user-name" type="text" placeholder="Nome:" required />
+
+        <br />
+        <label for="child">Nr de filhos</label>
+        <input id="child" type="number" value="2" readonly />
+        <br />
+        <label for="nif">Nif</label>
+        <input id="nif" type="text" value="PT" name="" id="" />
+
+        <br />
+        <br />
+
+        <button type="submit">Inscrever</button>
+
+        <button type="reset">Limpar</button>
+      </form>
+    </section>
+
+    <!-- Tabela de Disciplinas -->
+    <section>
+      <h4>Módulos de Software Developer</h4>
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Nr Horas</th>
+            <th>Formador</th>
+            <th>Método de Avaliação</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>Programação Web</td>
+            <td>50h</td>
+            <td>Sara Monteiro</td>
+            <td>AC / Projecto</td>
+          </tr>
+          <tr>
+            <td>Algoritmia em C#</td>
+            <td>50h</td>
+            <td>Marco Pereira</td>
+            <td>Exame / Projeto / exercicios</td>
+          </tr>
+          <tr>
+            <td>Bases de Dados</td>
+            <td>50h</td>
+            <td>Ana Martelo</td>
+            <td>Fichas de Trabalho e Apresentação</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total Disciplinas</th>
+            <td colspan="3"><center>3</center></td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
 
     <!-- listas -->
     <!-- lista ordenada -->
@@ -138,8 +205,6 @@
     <h5 id="calendar">Calendário Escolar</h5>
     <p>Férias de Natal: 16 de Dezembro</p>
 
-  <a href="#top">Voltar ao Topo</a>
-
-    
+    <a href="#top">Voltar ao Topo</a>
   </body>
 </html>
