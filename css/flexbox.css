@@ -11,14 +11,19 @@ h1 {
     width: 90%;
     height: 500px;
     margin: 0 auto;
-    border: 5px solid #003049;
+    border: 5px solid hsl(201, 100%, 14%);
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
   
 }
 
 #container div {
     width: 200px;
     height: 200px;
+
 }
 
 #one {

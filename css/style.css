@@ -39,7 +39,8 @@ input[type="number"] {
 
 
 /* box model */
-#internship, #internship~div  {
+#internship,
+#internship~div {
     width: 240px;
     height: 220px;
     background-color: antiquewhite;
@@ -63,4 +64,47 @@ input[type="number"] {
 
 #cesae-management {
     text-align: center;
+}
+
+
+/* por defeito (em mobile, se considerarmos mobile first, a imagem aparece escondida) */
+#my-img {
+    display: none;
+}
+
+
+/* media query */
+/* para prints */
+@media print {
+    nav {
+        display: none;
+    }
+
+
+    #cesae-management {
+        text-align: left;
+    }
+
+
+}
+
+
+/* para tablets ou superiores */
+@media(min-width:1037px) and (max-width:2000px) {
+    #my-img {
+        display: block;
+    }
+}
+
+
+@media(min-width:800px) {
+    .bg-plum {
+        background-color: green;
+    }
+}
+
+@media(min-width:1800px) {
+    .bg-plum {
+        background-color: yellow;
+    }
 }
