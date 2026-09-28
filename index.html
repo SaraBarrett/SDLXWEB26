@@ -10,17 +10,22 @@
       type="image/png"
     />
     <!-- CSS da minha app -->
-    <link rel="stylesheet" href="css/style.css">
-
-
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <!-- Corpo da Página -->
   <body>
     <!-- Menu de Navegação -->
     <nav>
       <a id="top" href="pages/movies.html#movies-reviews">Filmes</a> |
-      <a href="https://www.cesaedigital.pt" target="_blank">Cesae</a> |
-      <a href="#calendar">Calendário</a> |
+      <a
+        id="cesae"
+        class="bg-plum"
+        href="https://www.cesaedigital.pt"
+        target="_blank"
+      >
+        Link Cesae</a
+      >
+      | <a href="#calendar">Calendário</a> |
       <a href="pages/linksAndImages.html">Lobos</a>
     </nav>
 
@@ -39,7 +44,7 @@
     <section>
       <h4>Formulário de Inscrição para SD</h4>
       <form action="pages/utils/success.html">
-        <label for="user-name">Nome Completo</label>
+        <label class="bg-plum" for="user-name">Nome Completo</label>
         <input id="user-name" type="text" placeholder="Nome:" required />
 
         <br />
@@ -59,14 +64,14 @@
     </section>
 
     <!-- Tabela de Disciplinas -->
-    <section>
+    <section >
       <h4>Módulos de Software Developer</h4>
       <table border="1px">
         <thead>
           <tr>
             <th>Nome</th>
             <th>Nr Horas</th>
-            <th>Formador</th>
+            <th class="bg-plum">Formador</th>
             <th>Método de Avaliação</th>
           </tr>
         </thead>
@@ -99,22 +104,27 @@
       </table>
     </section>
 
-    <!-- listas -->
-    <!-- lista ordenada -->
-    <h5>Lista de Melhores empresas para estagiar</h5>
-    <ol>
-      <li>Blip</li>
-      <li>Capgemini</li>
-      <li>Sonae</li>
-    </ol>
-
-    <!-- lista não ordenada -->
-    <h5>Lista de Disciplinas de SD</h5>
-    <ul>
-      <li>Web</li>
-      <li>Algoritmia</li>
-      <li>React</li>
-    </ul>
+    <section id="cesae-management">
+      <div id="internship">
+        <!-- listas -->
+        <!-- lista ordenada -->
+        <h5>Lista de Melhores empresas para estagiar</h5>
+        <ol>
+          <li>Blip</li>
+          <li>Capgemini</li>
+          <li>Sonae</li>
+        </ol>
+      </div>
+      <div>
+        <!-- lista não ordenada -->
+        <h5>Lista de Disciplinas de SD</h5>
+        <ul>
+          <li>Web</li>
+          <li>Algoritmia</li>
+          <li>React</li>
+        </ul>
+      </div>
+    </section>
 
     <h3>Hello Mundo, Bem Vindos ao Mundo encantado da Web</h3>
 

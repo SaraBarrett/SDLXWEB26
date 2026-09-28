@@ -1,16 +1,66 @@
-h5{
-    background-color:#54add9;
+h5 {
+    background-color: #54add9;
 }
 
 
-/* justificar o texto dos paragrafos */
-p{
+
+
+/* justificar o texto do
+s paragrafos */
+p {
     text-align: justify;
     font-size: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a{
+nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    background-color: #54add9;
+}
+
+
+
+.bg-plum {
+    background-color: plum;
+}
+
+h6~p {
+    background-color: burlywood;
+}
+
+
+input[type="number"] {
+    background-color: red;
+
+}
+
+
+/* box model */
+#internship, #internship~div  {
+    width: 240px;
+    height: 220px;
+    background-color: antiquewhite;
+    border: green solid;
+    margin: 10px auto 0px auto;
+    display: inline-block;
+    text-align: left;
+
+
+}
+
+/* #internship~div {
+    width: 200px;
+    height: 220px;
+    background-color: antiquewhite;
+    border: green solid;
+
+    margin: 10px auto 0px auto;
+    display: inline-block;
+} */
+
+#cesae-management {
+    text-align: center;
+}
